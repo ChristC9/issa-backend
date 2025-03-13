@@ -20,13 +20,11 @@ CORS(app,
      }},
      supports_credentials=False)
 
-# Initialize Firestore DB
 cred = credentials.Certificate(os.getenv('GOOGLE_APPLICATION_CREDENTIALS'))
 default_app = initialize_app(cred)
 db = firestore.client()
 games_ref = db.collection('wordle_games')
 
-# Load word list
 with open('words.txt', 'r') as f:
     WORDS = [word.strip().upper() for word in f.readlines() if len(word.strip()) == 5]
 
