@@ -17,7 +17,7 @@ This is a Flask backend for a Wordle clone game. It provides the necessary API e
 4. Run the application:
    ```
    create a .env file and add the following:
-   GOOGLE_APPLICATION_CREDENTIALS = "your_filename.json"
+   GOOGLE_APPLICATION_CREDENTIALS = "current_directory/your_filename.json"
    python app.py
    ```
 

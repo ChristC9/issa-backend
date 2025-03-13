@@ -9,4 +9,5 @@ htmlcov/
 .tox/
 docs/_build/
 .env
-.json
+*.json
+issa-project-cdf7d-firebase-adminsdk-fbsvc-e054417fb2.json
