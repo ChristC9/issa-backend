@@ -12,12 +12,12 @@ This is a Flask backend for a Wordle clone game. It provides the necessary API e
 3. Set up Firebase:
    - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
    - Generate a new private key in Project Settings > Service Accounts
-   - Save the JSON file as `issa-project-cdf7d-firebase-adminsdk-fbsvc-e054417fb2.json` in the root directory of this project
+   - Save the JSON file as `your_filename.json` in the root directory of this project
 
 4. Run the application:
    ```
    create a .env file and add the following:
-   GOOGLE_APPLICATION_CREDENTIALS=issa-project-cdf7d-firebase-adminsdk-fbsvc-e054417fb2.json
+   GOOGLE_APPLICATION_CREDENTIALS = "your_filename.json"
    python app.py
    ```
 
